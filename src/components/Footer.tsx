@@ -9,9 +9,9 @@ export default function Footer() {
           
           {/* Col 1: Logo & Tagline */}
           <div>
-            <h3 className="font-montserrat text-2xl font-extrabold text-white mb-4 tracking-wide">
-              MEDITA EN <span className="text-teal-light">MADRID</span>
-            </h3>
+            <div className="mb-8">
+              <img src="/logo_kadampa_celeste.png" alt="Medita en Madrid" className="h-20 sm:h-24 w-auto"/>
+            </div>
             <p className="font-montserrat font-medium text-sm leading-relaxed mb-6">
               Centro de meditación budista Kadampa. Un espacio para encontrar paz interior y desarrollar una mente compasiva en la ciudad.
             </p>

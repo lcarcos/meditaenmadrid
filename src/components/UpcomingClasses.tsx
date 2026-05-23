@@ -3,9 +3,9 @@ import { Plus } from 'lucide-react';
 
 const CLASSES = [
   { id: 1, date: 'HOY', time: '19:00h', title: 'Manejo del Estrés', location: 'Centro (Malasaña)', locationId: 'centro' },
-  { id: 2, date: 'MAÑ', time: '11:00h', title: 'Mente Clara', location: 'Retiro', locationId: 'retiro' },
+  { id: 2, date: 'MAÑ', time: '11:00h', title: 'Mente Clara', location: 'La Sierra', locationId: 'sierra' },
   { id: 3, date: 'JUE', time: '18:30h', title: 'Compasión Activa', location: 'Centro (Malasaña)', locationId: 'centro' },
-  { id: 4, date: 'VIE', time: '19:00h', title: 'Meditación Guiada', location: 'Retiro', locationId: 'retiro' },
+  { id: 4, date: 'VIE', time: '19:00h', title: 'Meditación Guiada', location: 'La Sierra', locationId: 'sierra' },
 ];
 
 export default function UpcomingClasses() {
@@ -40,10 +40,10 @@ export default function UpcomingClasses() {
           Centro (Malasaña)
         </button>
         <button 
-          onClick={() => setFilter('retiro')}
-          className={`px-4 py-2 rounded-full text-sm font-bold transition-colors ${filter === 'retiro' ? 'bg-teal-dark text-white' : 'bg-white text-brand-dark border border-teal-light hover:border-teal-dark'}`}
+          onClick={() => setFilter('sierra')}
+          className={`px-4 py-2 rounded-full text-sm font-bold transition-colors ${filter === 'sierra' ? 'bg-teal-dark text-white' : 'bg-white text-brand-dark border border-teal-light hover:border-teal-dark'}`}
         >
-          Retiro
+          La Sierra
         </button>
       </div>
 

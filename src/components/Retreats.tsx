@@ -4,7 +4,7 @@ const RETREATS = [
   {
     id: 1,
     title: 'Silencio en la Sierra',
-    date: 'Mayo 2025',
+    date: 'Junio 2026',
     teacher: 'Guen Kelsang Chokga',
     image: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=2070&auto=format&fit=crop',
     limited: true,
@@ -12,7 +12,7 @@ const RETREATS = [
   {
     id: 2,
     title: 'Purificación y Vajrasatva',
-    date: 'Junio 2025',
+    date: 'Julio 2026',
     teacher: 'Guen Kelsang Lochani',
     image: 'https://images.unsplash.com/photo-1519834785169-98be25ec3f84?q=80&w=2000&auto=format&fit=crop',
     limited: false,
@@ -20,7 +20,7 @@ const RETREATS = [
   {
     id: 3,
     title: 'Meditación Profunda',
-    date: 'Julio 2025',
+    date: 'Agosto 2026',
     teacher: 'Guen Kelsang Chokga',
     image: 'https://images.unsplash.com/photo-1445264618000-f1e069c5920f?q=80&w=2070&auto=format&fit=crop',
     limited: true,

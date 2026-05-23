@@ -6,12 +6,11 @@ export default function Hero() {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1593814681464-eef5af2b0628?q=80&w=2070&auto=format&fit=crop"
+          src="/hero_bg.jpg"
           alt="Centro de meditación budista en Madrid"
           className="w-full h-full object-cover object-center"
           loading="eager"
           fetchPriority="high"
-          referrerPolicy="no-referrer"
         />
         <div className="absolute inset-0 bg-teal-dark/40 mix-blend-multiply"></div>
         <div className="absolute inset-0 bg-brand-dark/30"></div>

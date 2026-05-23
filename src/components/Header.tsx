@@ -23,8 +23,8 @@ export default function Header() {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
-            <a href="#" className="font-montserrat text-2xl font-extrabold text-teal-dark tracking-tight">
-              MEDITA EN <span className="text-teal-medium">MADRID</span>
+            <a href="#" className="block py-1">
+              <img src="/logo_kadampa_celeste.png" alt="Medita en Madrid" className="h-16 sm:h-20 w-auto" />
             </a>
           </div>
 
@@ -65,11 +65,35 @@ export default function Header() {
       {isMobileMenuOpen && (
         <div className="md:hidden bg-white border-t border-teal-light/20 absolute top-full left-0 right-0 shadow-lg">
           <div className="px-4 pt-2 pb-6 space-y-1 flex flex-col">
-            <a href="#clases" className="block px-3 py-3 text-base font-bold text-brand-dark hover:bg-teal-light/10 uppercase tracking-wider">Clases</a>
-            <a href="#retiros" className="block px-3 py-3 text-base font-bold text-brand-dark hover:bg-teal-light/10 uppercase tracking-wider">Retiros</a>
-            <a href="#filosofia" className="block px-3 py-3 text-base font-bold text-brand-dark hover:bg-teal-light/10 uppercase tracking-wider">Filosofía</a>
+            <a 
+              href="#clases" 
+              onClick={() => setIsMobileMenuOpen(false)}
+              className="block px-3 py-3 text-base font-bold text-brand-dark hover:bg-teal-light/10 uppercase tracking-wider"
+            >
+              Clases
+            </a>
+            <a 
+              href="#retiros" 
+              onClick={() => setIsMobileMenuOpen(false)}
+              className="block px-3 py-3 text-base font-bold text-brand-dark hover:bg-teal-light/10 uppercase tracking-wider"
+            >
+              Retiros
+            </a>
+            <a 
+              href="#filosofia" 
+              onClick={() => setIsMobileMenuOpen(false)}
+              className="block px-3 py-3 text-base font-bold text-brand-dark hover:bg-teal-light/10 uppercase tracking-wider"
+            >
+              Filosofía
+            </a>
             <div className="border-t border-teal-light/20 my-2 pt-2">
-              <a href="#miembros" className="block px-3 py-3 text-base font-bold text-teal-medium hover:bg-teal-light/10">Acceso Miembros</a>
+              <a 
+                href="#miembros" 
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="block px-3 py-3 text-base font-bold text-teal-medium hover:bg-teal-light/10"
+              >
+                Acceso Miembros
+              </a>
             </div>
           </div>
         </div>

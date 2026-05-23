@@ -23,15 +23,15 @@ export default function Segmentation() {
           </span>
         </a>
 
-        {/* Ya Soy Miembro Card */}
+        {/* Ya Soy Practicante Card */}
         <a 
-          href="#miembro" 
+          href="#practicante" 
           className="group bg-teal-light/10 border-2 border-teal-medium/30 rounded-lg p-8 md:p-10 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col items-center text-center"
         >
           <div className="w-16 h-16 rounded-full bg-teal-medium/20 flex items-center justify-center mb-6 group-hover:bg-teal-medium/30 transition-colors">
             <Bell className="text-teal-dark" size={32} strokeWidth={2} />
           </div>
-          <h2 className="text-2xl font-montserrat font-bold text-teal-dark mb-3 uppercase tracking-wide">Ya Soy Miembro</h2>
+          <h2 className="text-2xl font-montserrat font-bold text-teal-dark mb-3 uppercase tracking-wide">Ya Soy Practicante</h2>
           <p className="text-brand-dark/80 mb-6 font-montserrat font-medium text-lg">
             Agenda, preces y<br />retiros exclusivos.
           </p>
