@@ -3,7 +3,7 @@ import { Flower2, Bell } from 'lucide-react';
 
 export default function Segmentation() {
   return (
-    <section className="py-20 px-4 max-w-5xl mx-auto -mt-24 relative z-20">
+    <section className="px-4 max-w-5xl mx-auto -mt-14 sm:-mt-18 md:-mt-20 pb-16 sm:pb-20 relative z-20">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         
         {/* Soy Nuevo Card */}
